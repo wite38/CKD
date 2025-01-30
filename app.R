@@ -10,7 +10,7 @@ library(reshape2)      # For data reshaping
 library(dplyr)         # For data manipulation
 
 # Load dataset (assuming CSV file exists at the specified path)
-data <- read.csv("C:/Users/dawit habte/Desktop/ckd/CKD/sampled_kidney_disease_raw.csv")
+data <- read.csv("https://github.com/wite38/CKD/blob/main/sampled_kidney_disease_raw.csv")
 
 # Convert classification to labels
 data$classification <- ifelse(data$classification == "ckd", "CKD", "Non-CKD")

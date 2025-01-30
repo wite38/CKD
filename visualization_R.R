@@ -4,7 +4,7 @@ library(plotly)
 library(reshape2)
 
 # Load the dataset (replace with your actual data path)
-data <- read.csv("C:/Users/dawit habte/Desktop/ckd/CKD/sampled_kidney_disease_raw.csv")
+data <- read.csv("https://github.com/wite38/CKD/blob/main/sampled_kidney_disease_raw.csv")
 
 # Filter relevant columns
 selected_data <- data[, c("age", "bp", "urine_albumin", "blood_urea", "serum_creatine", "hgb", "classification")]
