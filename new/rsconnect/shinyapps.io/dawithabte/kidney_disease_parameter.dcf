@@ -1,0 +1,12 @@
+name: kidney_disease_parameter
+title: kidney_disease_parameter
+username: dawithabte
+account: dawithabte
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13862650
+bundleId:
+url: https://dawithabte.shinyapps.io/kidney_disease_parameter/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
